@@ -123,7 +123,8 @@ repositories:
   # the Agnocast ROS packages are provided as a source build.
   # Once the transition stabilizes, use the packages released from the official ROS repository.
   # Issue: https://github.com/autowarefoundation/autoware/issues/5968
-  middleware/external/agnocast:
-    type: git
-    url: https://github.com/tier4/agnocast.git
-    version: backport-jazzy-support-v2.1.2
+  # NOTE: agnocast is disabled due to kernel panic issues
+  # middleware/external/agnocast:
+  #   type: git
+  #   url: https://github.com/tier4/agnocast.git
+  #   version: backport-jazzy-support-v2.1.2

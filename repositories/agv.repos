@@ -1,0 +1,34 @@
+repositories:
+  # agv
+  agv/YOLOX-ROS:
+    type: git
+    url: https://github.com/arayabrain/YOLOX-ROS.git
+    version: humble
+  agv/agv_launch:
+    type: git
+    url: https://github.com/arayabrain/agv_launch.git
+    version: main
+  agv/camera_lidar_fusion:
+    type: git
+    url: https://github.com/arayabrain/camera_lidar_fusion.git
+    version: agv
+  agv/glim:
+    type: git
+    url: https://github.com/koide3/glim
+    version: master
+  agv/glim_ros2:
+    type: git
+    url: https://github.com/arayabrain/agv_glim_ros2.git
+    version: main
+  agv/h264_decoder_node:
+    type: git
+    url: https://github.com/arayabrain/h264_decoder_node.git
+    version: main
+  agv/offroad_ground_filter:
+    type: git
+    url: https://github.com/arayabrain/offroad_ground_filter.git
+    version: main
+  agv/rviz_h264_display_plugin:
+    type: git
+    url: https://github.com/arayabrain/rviz_h264_display_plugin.git
+    version: fix/time-source-mismatch

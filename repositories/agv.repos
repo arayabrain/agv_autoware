@@ -1,12 +1,20 @@
 repositories:
   # agv
-  agv/YOLOX-ROS:
+  agv/a2es_predictions:
     type: git
-    url: https://github.com/arayabrain/YOLOX-ROS.git
-    version: humble
+    url: https://github.com/arayabrain/agv_predictions.git
+    version: main
   agv/agv_launch:
     type: git
     url: https://github.com/arayabrain/agv_launch.git
+    version: main
+  agv/agv_navigation_gui:
+    type: git
+    url: https://github.com/arayabrain/agv_navigation_gui.git
+    version: main
+  agv/agv_path_planner:
+    type: git
+    url: https://github.com/arayabrain/agv_path_planner.git
     version: main
   agv/camera_lidar_fusion:
     type: git
@@ -28,7 +36,19 @@ repositories:
     type: git
     url: https://github.com/arayabrain/offroad_ground_filter.git
     version: main
+  agv/ov2slam:
+    type: git
+    url: https://github.com/ov2slam/ov2slam.git
+    version: ros2
   agv/rviz_h264_display_plugin:
     type: git
     url: https://github.com/arayabrain/rviz_h264_display_plugin.git
     version: fix/time-source-mismatch
+  agv/tracker_node:
+    type: git
+    url: https://github.com/arayabrain/agv_tracker.git
+    version: main
+  agv/YOLOX-ROS:
+    type: git
+    url: https://github.com/arayabrain/YOLOX-ROS.git
+    version: humble
